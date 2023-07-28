@@ -23,8 +23,14 @@ export default function Layout({ children }: LayoutProps) {
             <a href="https://twitter.com/oyoops" className="hover:text-slate-600 cursor-pointer">
               Twitter
             </a>
+            <a href="https://sandyai.xyz" className="hover:text-slate-600 cursor-pointer">
+              SandyAI
+            </a>
             <a href="https://munigpt.xyz" className="hover:text-slate-600 cursor-pointer">
               MuniGPT
+            </a>
+            <a href="https://dame.lillard.trade" className="hover:text-slate-600 cursor-pointer">
+              HEATSeeker: Portland Escape!
             </a>
           </nav>
         </div>
