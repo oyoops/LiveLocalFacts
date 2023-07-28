@@ -21,7 +21,7 @@ export default function Layout({ children }: LayoutProps) {
         </div>
       </header>
       <div>
-        <main className="mainContent">
+        <main className="flex w-full flex-1 flex-col overflow-hidden">
           {children}
         </main>
       </div>
