@@ -6,6 +6,31 @@
   padding: 1rem;
 }
 
+.topnav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f9fafb; /* Using the same color as .apimessage for consistency */
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #d9d9e3;
+  width: 100%;
+}
+
+.topnav a {
+  margin: 0 1rem;
+  color: #6b7280; /* Using the same color as .textarea::placeholder for consistency */
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.topnav a:hover {
+  background-color: #6b7280;
+  color: #ffffff;
+}
+
 .header {
   width: auto;
 }

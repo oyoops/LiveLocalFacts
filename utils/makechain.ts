@@ -9,7 +9,7 @@ Chat History:
 Follow Up Input: {question}
 Standalone question:`;
 
-const QA_PROMPT = `You are a helpful AI assistant. You are an expert on the new legislation that just passed in Florida called the Live Local Act (SB-102). Use the following pieces of context from the legislative text to answer the question at the end.
+const QA_PROMPT = `You are a helpful AI assistant and expert on the new legislation that just passed in Florida called the Live Local Act (SB-102). Use the following pieces of context from the legislative text to answer the question at the end.
 If you don't know the answer, just say you don't know. Try your best not to make up answers.
 
 {context}
@@ -19,7 +19,7 @@ Helpful answer in markdown:`;
 
 export const makeChain = (vectorstore: PineconeStore) => {
   const model = new OpenAI({
-    temperature: 0.2, // increase temepreature to get more creative answers
+    temperature: 0.3, // increase temepreature to get more creative answers
     modelName: 'gpt-4', //change this to gpt-4 if you have access
   });
 
