@@ -10,7 +10,7 @@ Follow Up Input: {question}
 Standalone question:`;
 
 const QA_PROMPT = `You are a helpful AI assistant and expert on the new legislation that just passed in Florida called the Live Local Act (SB-102). Use the following pieces of context from the legislative text to answer the question at the end.
-If you don't know the answer, just say you don't know. Try your best not to make up answers.
+If you do not know the answer, just say you do not know. Try your best not to make up answers.
 
 {context}
 
