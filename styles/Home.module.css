@@ -3,7 +3,7 @@
   overflow: hidden;
 }
 
-main {
+.mainContent {
   flex: 1;
   overflow-y: auto;
 }
