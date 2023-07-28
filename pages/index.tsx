@@ -25,7 +25,7 @@ export default function Home() {
   }>({
     messages: [
       {
-        message: 'Hi, what would you like to learn about this document?',
+        message: 'Hey buddy. What do you want to learn about the Live Local Act today?',
         type: 'apiMessage',
       },
     ],
@@ -48,7 +48,7 @@ export default function Home() {
     setError(null);
 
     if (!query) {
-      alert('Please input a question');
+      alert('Please ask a question.');
       return;
     }
 
@@ -125,7 +125,7 @@ export default function Home() {
       <Layout>
         <div className="mx-auto flex flex-col gap-4">
           <h1 className="text-2xl font-bold leading-[1.1] tracking-tighter text-center">
-            Chat With Your Docs
+            Live Local Facts
           </h1>
           <main className={styles.main}>
             <div className={styles.cloud}>
@@ -223,8 +223,8 @@ export default function Home() {
                     name="userInput"
                     placeholder={
                       loading
-                        ? 'Waiting for response...'
-                        : 'What is this legal case about?'
+                        ? 'Thinking...'
+                        : 'What do you want to learn about the Live Local Act?'
                     }
                     value={query}
                     onChange={(e) => setQuery(e.target.value)}
@@ -255,15 +255,13 @@ export default function Home() {
             </div>
             {error && (
               <div className="border border-red-400 rounded-md p-4">
-                <p className="text-red-500">{error}</p>
+                <p className="text-red-500">WHOOPS!!!!! {error}</p>
               </div>
             )}
           </main>
         </div>
         <footer className="m-auto p-4">
-          <a href="https://twitter.com/mayowaoshin">
-            Powered by LangChainAI. Demo built by Mayo (Twitter: @mayowaoshin).
-          </a>
+          Demo built by <a href="https://twitter.com/oyoops">@oyoops</a>. Powered by Sandy AI. Which was also built by @oyoops.
         </footer>
       </Layout>
     </>
