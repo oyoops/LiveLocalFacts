@@ -25,7 +25,7 @@ export default function Home() {
   }>({
     messages: [
       {
-        message: 'Hey buddy. What do you want to learn about the Live Local Act today?',
+        message: 'Hey buddy. What do you want to know about SB-102?',
         type: 'apiMessage',
       },
     ],
