@@ -3,11 +3,6 @@
   overflow: hidden;
 }
 
-.mainContent {
-  flex: 1;
-  overflow-y: auto;
-}
-
 .main {
   display: flex;
   flex-direction: column;
