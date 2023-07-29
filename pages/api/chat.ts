@@ -48,14 +48,13 @@ export default async function handler(
 
 
     //custom logs
-    console.log("-----------------------------------------------------------");
-    console.log("PROMPT:  ");
-    console.log('question', question);
-    console.log("-----------------------------------------------------------");
-    console.log("RESPONSE:  ");
+    console.log("___________________________________________________________");
+    console.log("RESPONDED:  ");
     console.log('response', response);
-    console.log("-----------------------------------------------------------");
-    
+    console.log("-_-'-_-'-_-'-_-'-_-'-_-'-_-'-_-'-_-'-_-'-_-'-_-'-_-'-_-'-_-");
+    console.log("TO PROMPT:  ");
+    console.log('question', question);
+    console.log("___________________________________________________________");
     
     res.status(200).json(response);
   } catch (error: any) {
