@@ -195,7 +195,7 @@ export default function Home() {
                                       {doc.pageContent}
                                     </ReactMarkdown>
                                     <p className="mt-2">
-                                      <b>Source:</b> My a**hole
+                                    <h3>Source {index + 1}</h3>
                                     </p>
                                   </AccordionContent>
                                 </AccordionItem>
